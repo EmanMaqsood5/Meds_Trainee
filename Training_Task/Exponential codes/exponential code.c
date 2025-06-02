@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-// Define the factorial function
+
 int factorial(int u) {
     if (u == 0) {
         return 1;
@@ -13,7 +13,7 @@ int factorial(int u) {
     return ans;
 }
 
-// Define the exp function
+
 double my_exp(int x, int n) {
     double result = 1.0;
     for (int i = 1; i < n; i++) {
